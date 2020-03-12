@@ -6,11 +6,11 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
-    "postinstall": "react-native link"
+    "test": "jest"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.7",
+    "@react-navigation/drawer": "^5.1.1",
     "@react-navigation/native": "^5.0.9",
     "@react-navigation/stack": "^5.1.1",
     "history": "^4.6.1",
@@ -35,7 +35,6 @@
     "react-navigation": "^4.2.2",
     "react-navigation-stack": "^2.2.2",
     "react-redux": "^5.0.4",
-    "react-thunk": "^1.0.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
@@ -45,12 +44,13 @@
     "@react-native-community/eslint-config": "^0.0.5",
     "@types/jest": "^24.0.18",
     "@types/react-native": "^0.60.22",
+    "@types/react-redux": "^7.1.7",
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.9.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.8.3"
   },
   "jest": {
     "preset": "react-native",
